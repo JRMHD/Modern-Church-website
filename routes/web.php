@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\SubscriptionController;
+use App\Http\Controllers\DonationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,3 +35,7 @@ Route::view('/events', 'events')->name('events');
 
 // Welcome Page (Home)
 Route::view('/', 'welcome')->name('welcome');
+
+
+Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
+Route::post('/subscribe', [SubscriptionController::class, 'subscribe'])->name('subscribe');

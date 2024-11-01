@@ -7,11 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/favicon.png" rel="icon" />
-    <!--Title-->
-    <title>Zegen - Contact Us</title>
-    <!-- CSS -->
-    <!-- Font CSS -->
 
+    <!-- Title -->
+    <title>Contact Us - Spirit Light Ministries Online Church</title>
+
+    <!-- Meta Description -->
+    <meta name="description"
+        content="Get in touch with Spirit Light Ministries Online Church. Contact us for inquiries, support, and prayer requests. We are here to serve you." />
+
+    <!-- Meta Keywords -->
+    <meta name="keywords"
+        content="Spirit Light Ministries, contact us, online church, inquiries, prayer requests, community support, Prophet Caleb Wekesa, Pastor Jephter Wekeda" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Contact Us - Spirit Light Ministries Online Church" />
+    <meta property="og:description"
+        content="Have questions? Reach out to Spirit Light Ministries Online Church for support, inquiries, or to connect with our community." />
+    <meta property="og:image" content="\images\logo-dark.png" /> <!-- Update with your church logo image -->
+    <meta property="og:url" content="https://prophetjeffter.com/contact-us" />
+    <!-- Update with the actual URL of the contact page -->
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Contact Us - Spirit Light Ministries Online Church" />
+    <meta name="twitter:description"
+        content="Contact Spirit Light Ministries Online Church for inquiries, support, and prayer requests. We are dedicated to serving our community." />
+    <meta name="twitter:image" content="\images\logo-dark.png" /> <!-- Update with your church logo image -->
+
+    <!-- CSS -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Font Awesome -->
@@ -29,6 +53,7 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="css/style.css" class="main-style">
 </head>
+
 <!--Body Start-->
 
 <body data-res-from="1025">
@@ -75,7 +100,7 @@
                                         <div class="feature-title">
                                             <h5 class="mb-2">Our Location</h5>
                                         </div>
-                                        <p class="mb-0">684 West College St. Sun City, United States America.</p>
+                                        <p class="mb-0">Nairobi Kenya</p>
                                     </div>
                                 </div>
                             </div>
@@ -91,9 +116,9 @@
                                         <div class="feature-title">
                                             <h5 class="mb-2">Phone Number</h5>
                                         </div>
-                                        <a href="tel:(+55)654-545-5418">(+55) 654 - 545 - 5418</a>
+                                        <a href="tel:(+55)654-545-5418">+254797189400</a>
                                         <br>
-                                        <a href="tel:(+55)654-545-1235">(+55) 654 - 545 - 1235</a>
+                                        {{-- <a href="tel:(+55)654-545-1235">(+55) 654 - 545 - 1235</a> --}}
                                     </div>
                                 </div>
                             </div>
@@ -109,9 +134,9 @@
                                         <div class="feature-title">
                                             <h5 class="mb-2">Email Address</h5>
                                         </div>
-                                        <a href="mailto:info@example.com">info@example.com</a>
+                                        <a href="mailto:prophetjeffter@gmail.com">prophetjeffter@gmail.com</a>
                                         <br>
-                                        <a href="mailto:info@zegen.com">info@zegen.com</a>
+                                        {{-- <a href="mailto:info@zegen.com">info@zegen.com</a> --}}
                                     </div>
                                 </div>
                             </div>
@@ -134,57 +159,151 @@
                                 <div class="contact-form-wrap">
                                     <!-- form inputs -->
                                     <form id="contact-form" class="contact-form"
-                                        action="https://zozothemes.com/html/zegen/inc/function.php"
+                                        action="{{ route('contact.store') }}" method="POST"
                                         enctype="multipart/form-data">
+                                        @csrf
                                         <div class="row">
                                             <div class="col-md-12">
-                                                <!-- form group -->
                                                 <div class="form-group">
                                                     <input id="name" class="form-control" name="name"
-                                                        placeholder="Name" data-bv-field="name" type="text" />
+                                                        placeholder="Name" type="text" required />
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
-                                                <!-- form group -->
                                                 <div class="form-group">
                                                     <input id="email" class="form-control" name="email"
-                                                        placeholder="Email" data-bv-field="email" type="email">
+                                                        placeholder="Email" type="email" required>
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
-                                                <!-- form group -->
                                                 <div class="form-group">
                                                     <input id="phone" class="form-control" name="phone"
-                                                        placeholder="Phone" data-bv-field="phone" type="text">
+                                                        placeholder="Phone" type="text">
                                                 </div>
                                             </div>
                                             <div class="col-md-12">
-                                                <div class="contact-message">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <textarea id="message" class="form-control textarea" rows="5" name="message" placeholder="Your Message"
-                                                            data-bv-field="message"></textarea>
-                                                    </div>
+                                                <div class="form-group">
+                                                    <input id="subject" class="form-control" name="subject"
+                                                        placeholder="Subject" type="text" required>
                                                 </div>
-                                                <!-- form group -->
-                                                <div class="form-group height-zero mb-0">
-                                                    <input class="height-zero" type="text" id="hidden-grecaptcha"
-                                                        name="hidden-grecaptcha" value="" />
+                                            </div>
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea id="message" class="form-control" rows="5" name="message" placeholder="Your Message" required></textarea>
                                                 </div>
-                                                <!-- form button -->
+                                            </div>
+                                            <div class="col-md-12 text-center">
                                                 <button type="submit" id="contact-submit"
-                                                    class="btn btn-default mt-0 theme-btn">Send Now</button>
+                                                    class="btn btn-default mt-0 theme-btn">
+                                                    Send Now
+                                                </button>
                                             </div>
                                         </div>
-                                        <span class="clearfix"></span>
                                     </form>
+
+                                    <!-- Loader/Spinner -->
+                                    <div id="loading-spinner" class="loading-spinner" style="display: none;"></div>
+
+                                    <div id="response-message"
+                                        style="display: none; text-align: center; margin-top: 10px;"></div>
+
+                                    <style>
+                                        /* Loader Spinner Styles */
+                                        .loading-spinner {
+                                            width: 50px;
+                                            /* Size of the spinner */
+                                            height: 50px;
+                                            border: 8px solid rgba(255, 0, 0, 0.3);
+                                            /* Light red border */
+                                            border-top-color: red;
+                                            /* Red top border */
+                                            border-radius: 50%;
+                                            animation: spin 0.8s linear infinite;
+                                            /* Animation */
+                                            margin: 20px auto;
+                                            /* Center the spinner */
+                                        }
+
+                                        @keyframes spin {
+                                            0% {
+                                                transform: rotate(0deg);
+                                            }
+
+                                            100% {
+                                                transform: rotate(360deg);
+                                            }
+                                        }
+                                    </style>
+
+                                    <script>
+                                        document.getElementById('contact-form').addEventListener('submit', function(e) {
+                                            e.preventDefault(); // Prevent default form submission
+                                            const formData = new FormData(this);
+                                            const responseMessageDiv = document.getElementById('response-message');
+                                            const loadingSpinner = document.getElementById('loading-spinner');
+
+                                            responseMessageDiv.style.display = 'none'; // Hide previous messages
+                                            loadingSpinner.style.display = 'block'; // Show the loader
+
+                                            fetch("{{ route('contact.store') }}", {
+                                                    method: "POST",
+                                                    headers: {
+                                                        "X-CSRF-TOKEN": "{{ csrf_token() }}"
+                                                    },
+                                                    body: formData
+                                                })
+                                                .then(response => response.json())
+                                                .then(data => {
+                                                    loadingSpinner.style.display = 'none'; // Hide the loader
+                                                    if (data.errors) {
+                                                        // If there are validation errors
+                                                        responseMessageDiv.style.color = 'red';
+                                                        responseMessageDiv.innerHTML = '<ul>' + Object.values(data.errors).map(error =>
+                                                            `<li>${error.join(', ')}</li>`).join('') + '</ul>';
+                                                    } else {
+                                                        // Success message
+                                                        responseMessageDiv.style.color = 'green';
+                                                        responseMessageDiv.innerHTML = data.message;
+                                                        document.getElementById('contact-form').reset(); // Reset the form
+                                                    }
+                                                    responseMessageDiv.style.display = 'block'; // Show the response message
+                                                })
+                                                .catch(error => {
+                                                    loadingSpinner.style.display = 'none'; // Hide the loader
+                                                    responseMessageDiv.style.color = 'red';
+                                                    responseMessageDiv.innerHTML = 'There was an error sending your message.';
+                                                    responseMessageDiv.style.display = 'block';
+                                                });
+                                        });
+                                    </script>
+
+                                    {{-- Display success message if it exists --}}
+                                    @if (session('success'))
+                                        <div style="color: green; text-align: center; margin-top: 10px;">
+                                            {{ session('success') }}
+                                        </div>
+                                    @endif
+
+                                    {{-- Display validation errors if they exist --}}
+                                    @if ($errors->any())
+                                        <div style="color: red; text-align: center; margin-top: 10px;">
+                                            <ul>
+                                                @foreach ($errors->all() as $error)
+                                                    <li>{{ $error }}</li>
+                                                @endforeach
+                                            </ul>
+                                        </div>
+                                    @endif
+
+
+
                                     <div class="captcha-parent">
                                         <div class="g-recaptcha"
                                             data-sitekey="6LcuIvEcAAAAAFnQUTIoRRn6Gvc54vbWAf0GSEdP"
                                             data-callback="verifyRecaptchaCallback"></div>
                                     </div>
                                     <!-- form inputs end -->
-                                    <p id="contact-status-msg" class="hide"></p>
+                                    {{-- <p id="contact-status-msg" class="hide"></p> --}}
                                 </div>
                                 <!-- Form End-->
                             </div>
@@ -208,14 +327,17 @@
                     <div class="row">
                         <!-- col -->
                         <div class="col-md-12">
-                            <!-- Screan Reader Text -->
-                            <h2 class="screen-reader-text">Map</h2>
+                            <!-- Screen Reader Text -->
+                            <h2 class="screen-reader-text">Location of Spirit Light Ministries</h2>
                             <!-- Container Fluid -->
                             <div class="container-fluid pad-none">
                                 <!-- Map -->
                                 <div class="map mt-0">
-                                    <div id="site-google-map" class="b-radius-0" style="width:100%;height:400px;"
-                                        data-map-style="Silver"></div>
+                                    <iframe
+                                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d510564.65107988653!2d36.5177334104462!3d-1.3031873859975642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1172d84d49a7%3A0xf7cf0254b297924c!2sNairobi!5e0!3m2!1sen!2ske!4v1730460579289!5m2!1sen!2ske"
+                                        width="100%" height="450" style="border:0;" allowfullscreen=""
+                                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                                    </iframe>
                                 </div>
                                 <!-- Map -->
                             </div>
@@ -225,6 +347,7 @@
                     </div>
                 </div>
             </section>
+
             <!-- Contact Map End -->
         </div>
     </div>

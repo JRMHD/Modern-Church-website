@@ -7,11 +7,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/favicon.png" rel="icon" />
-    <!--Title-->
-    <title>Zegen - About Us</title>
-    <!-- CSS -->
-    <!-- Font CSS -->
 
+    <!-- Title -->
+    <title>About Us - Spirit Light Ministries Online Church</title>
+
+    <!-- Meta Description -->
+    <meta name="description"
+        content="Learn more about Spirit Light Ministries Online Church. Discover our mission, beliefs, and the leadership of Prophet Caleb Wekesa and Pastor Jephter Wekeda." />
+
+    <!-- Meta Keywords -->
+    <meta name="keywords"
+        content="About Spirit Light Ministries, online church, mission, beliefs, Prophet Caleb Wekesa, Pastor Jephter Wekeda" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="About Us - Spirit Light Ministries Online Church" />
+    <meta property="og:description"
+        content="Get to know Spirit Light Ministries Online Church, our mission, and our dedicated leaders." />
+    <meta property="og:image" content="\images\logo-dark.png" /> <!-- Update with your church logo image -->
+    <meta property="og:url" content="https://prophetjeffter.com/about-us" />
+    <!-- Update with the actual URL of the about page -->
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="About Us - Spirit Light Ministries Online Church" />
+    <meta name="twitter:description"
+        content="Explore the mission and vision of Spirit Light Ministries Online Church and meet our leaders." />
+    <meta name="twitter:image" content="\images\logo-dark.png" /> <!-- Update with your church logo image -->
+
+    <!-- CSS -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Font Awesome -->
@@ -31,6 +55,7 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="css/style.css" class="main-style">
 </head>
+
 <!--Body Start-->
 
 <body data-res-from="1025">
@@ -62,7 +87,9 @@
     <div class="content-wrapper pad-none">
         <div class="content-inner">
             <!-- About Section -->
-            <section id="section-about" class="section-about pad-bottom-none">
+            <!-- About Section -->
+            <section id="section-about"
+                class="section-about pad-top-none pad-bottom-none pb-5 pb-lg-0 pad-bottom-md-none">
                 <div class="container">
                     <!-- Row -->
                     <div class="row d-flex align-items-center">
@@ -73,11 +100,11 @@
                                 <div class="about-wrap-inner">
                                     <!-- about details -->
                                     <div class="about-wrap-details">
-                                        <!-- about button -->
+                                        <!-- about image -->
                                         <div class="text-center">
-                                            <div class="about-img">
+                                            <div class="about-img mb-4 mb-md-0">
                                                 <img src="images/about-us/about-us-img.png" class=""
-                                                    alt="about-img">
+                                                    alt="about Spirit Light Ministries" />
                                             </div>
                                             <!-- .col -->
                                         </div>
@@ -89,17 +116,23 @@
                         </div>
                         <!-- .col -->
                         <!-- Col -->
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 ps-lg-0">
                             <div class="title-wrap margin-bottom-50">
                                 <div class="section-title">
                                     <span class="sub-title theme-color text-uppercase">About Us</span>
-                                    <h2 class="section-title margin-top-5">We are Taking Small Steps to Make Earth
-                                        Better Planet</h2>
+                                    <h2 class="section-title margin-top-5">
+                                        Welcome to Spirit Light Ministries Online Church
+                                    </h2>
                                     <span class="border-bottom"></span>
                                 </div>
                                 <div class="pad-top-15">
-                                    <p class="margin-bottom-20">We welcome you with great joy to Zegen Church. We are
-                                        here to share the great news of Jesus Christ to all that will listen.</p>
+                                    <p class="margin-bottom-20">
+                                        Spirit Light Ministries brings together believers from across the globe through
+                                        online services streamed on platforms like IMO, Tiktok, YouTube, and Facebook.
+                                        Led by Prophet Caleb Wekesa in our physical location and Pastor Jephter Wekeda
+                                        (PJ Wekesa) online, we are committed to sharing the light of God’s love
+                                        worldwide.
+                                    </p>
                                 </div>
                             </div>
                             <div class="row">
@@ -108,14 +141,17 @@
                                     <div class="feature-box-wrap f-box-style-1 relative">
                                         <div class="feature-box-details">
                                             <div class="feature-icon margin-bottom-25">
-                                                <span class="ti-heart b-radius-50 d-block"></span>
+                                                <span class="ti-world b-radius-50 d-block"></span>
                                             </div>
                                             <div class="feature-content">
                                                 <div class="feature-title relative margin-bottom-15">
-                                                    <h4>Place Of Heaven</h4>
+                                                    <h4>Worldwide Worship</h4>
                                                 </div>
-                                                <p class="mb-0">In Zegen you will feel divinity, piety, goodness,
-                                                    faith or right beliefs.</p>
+                                                <p class="mb-0">
+                                                    Join Spirit Light Ministries from anywhere in the world. With
+                                                    services streamed on popular platforms, you are always close to
+                                                    God’s word, wherever you are.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -126,14 +162,17 @@
                                     <div class="feature-box-wrap f-box-style-1 relative">
                                         <div class="feature-box-details">
                                             <div class="feature-icon margin-bottom-25">
-                                                <span class="ti-book b-radius-50 d-block"></span>
+                                                <span class="ti-microphone b-radius-50 d-block"></span>
                                             </div>
                                             <div class="feature-content">
                                                 <div class="feature-title relative margin-bottom-15">
-                                                    <h4>Study Bible</h4>
+                                                    <h4>Led by Faithful Leaders</h4>
                                                 </div>
-                                                <p class="mb-0">Learn the Bible enhance your wisdom, give you boldness
-                                                    about your faith.</p>
+                                                <p class="mb-0">
+                                                    Under the guidance of Prophet Caleb Wekesa and Pastor Jephter
+                                                    Wekeda, Spirit Light Ministries is dedicated to inspiring faith,
+                                                    hope, and spiritual growth in all.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -148,23 +187,27 @@
                 <!-- Container -->
             </section>
             <!-- About Section End -->
+
+            <!-- About Section End -->
             <!-- Get a Quote Section -->
-            <section id="get-quote-section" class="get-quote-section pad-none">
+            <section id="get-quote-section" class="get-quote-section pad-none pad-bottom-md-none">
                 <div class="container">
-                    <div class="div-bg-img b-radius-8 pad-top-50 pad-bottom-45" data-bg="images/bg/bg-1.jpg">
+                    <div class="div-bg-img b-radius-8 pad-top-50 pad-bottom-45 pe-5 pe-lg-0 ps-lg-0 ps-5"
+                        data-bg="images/bg/bg-1.jpg">
                         <!-- Row -->
                         <div class="row get-quote-2">
                             <!-- Col -->
-                            <div class="col-md-3">
+                            <div class="col-lg-2 pe-lg-0 pb-4 pb-lg-0">
                                 <!-- video wrap -->
-                                <div class="video-wrap wrap-stretch relative"><!-- video details -->
+                                <div class="video-wrap wrap-stretch relative">
+                                    <!-- video details -->
                                     <div class="video-wrap-details">
                                         <!-- video button -->
                                         <div class="video-play-btn text-center">
                                             <div class="video-icon">
                                                 <a class="popup-youtube box-shadow1"
-                                                    href="https://www.youtube.com/watch?v=1hLBCOlptq8">
-                                                    <i class="ti-heart"></i>
+                                                    href="https://www.youtube.com/watch?v=5mZW2IzUAgE">
+                                                    <i class="ti-control-play"></i>
                                                 </a>
                                             </div>
                                         </div>
@@ -175,11 +218,14 @@
                             </div>
                             <!-- Col -->
                             <!-- Col -->
-                            <div class="col-md-9 pe-5">
+                            <div class="col-lg-10 ps-lg-0 pe-lg-5">
                                 <div class="title-wrap mb-0">
                                     <div class="section-title typo-white mb-0">
-                                        <h2 class="title mb-0">“Pray! And listen to God! You can do this alone, but
-                                            find somebody to do it with you”</h2>
+                                        <h2 class="title mb-0">
+                                            “Wherever you are, God hears you. Connect with us online, lift your voice in
+                                            prayer, and feel the unity of Spirit Light Ministries. We worship together,
+                                            no matter the distance.”
+                                        </h2>
                                     </div>
                                 </div>
                             </div>

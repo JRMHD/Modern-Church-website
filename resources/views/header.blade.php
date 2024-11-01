@@ -84,8 +84,7 @@
                              <li class="nav-item">
                                  <ul class="nav header-info">
                                      <div class="header-address typo-white">
-                                         <span class="ti-location-pin"></span> 684 West College
-                                         St. Sun City, USA
+                                         <span class="ti-location-pin"></span>Nairobi Kenya (Online Church)
                                      </div>
                                  </ul>
                              </li>
@@ -93,12 +92,22 @@
                          <ul class="nav topbar-items pull-right">
                              <li class="nav-item">
                                  <div class="social-icons typo-white">
-                                     <a href="#" class="social-fb"><span class="ti-facebook"></span></a>
-                                     <a href="#" class="social-twitter"><span class="ti-twitter"></span></a>
-                                     <a href="#" class="social-instagram"><span class="ti-instagram"></span></a>
-                                     <a href="#" class="social-pinterest"><span class="ti-pinterest"></span></a>
-                                     <a href="#" class="social-youtube"><span class="ti-youtube"></span></a>
-                                     <a href="#" class="social-dribble"><span class="ti-dribbble"></span></a>
+                                     <a href="https://www.facebook.com/share/86VbkXLQeZ4docC1/" class="social-fb"
+                                         target="_blank" rel="noopener noreferrer">
+                                         <span class="ti-facebook"></span>
+                                     </a>
+                                     <a href="https://www.tiktok.com/@jeffterwekesa?_t=8r0iZRFSOg9&_r=1"
+                                         class="social-tiktok" target="_blank" rel="noopener noreferrer">
+                                         <span class="ri-tiktok-fill"></span>
+                                     </a>
+                                     <a href="https://youtube.com/@pj_wekesa?si=mMD9En8rW6L8tmEN" class="social-youtube"
+                                         target="_blank" rel="noopener noreferrer">
+                                         <span class="ti-youtube"></span>
+                                     </a>
+                                     <a href="https://imo.onelink.me/RAdY?af_dp=imo%3A%2F%2Fuser.voiceroom.join%2Fmy.0vwl2cirurms8aho%3Fentry_type%3Dshare&af_web_dp=https%3A%2F%2Fimo.im&from=copy_link"
+                                         class="social-imo" target="_blank" rel="noopener noreferrer">
+                                         <span class="ti-world"></span>
+                                     </a>
                                  </div>
                              </li>
                              <li>
@@ -129,12 +138,14 @@
                                      <!--Overlay Menu Switch-->
                                      <ul class="nav navbar-items pull-left">
                                          <li class="list-item">
-                                             <a href="/" class="logo-general"><img src="images/logo-dark.png"
-                                                     class="img-fluid changeable-dark" width="166" height="50"
-                                                     alt="Logo" /></a>
-                                             <a href="/" class="logo-sticky"><img src="images/logo-dark.png"
-                                                     class="img-fluid changeable-dark" width="166" height="50"
-                                                     alt="Logo" /></a>
+                                             <a href="/" class="logo-general">
+                                                 <img src="images/logo-dark.png" class="img-fluid changeable-dark"
+                                                     width="166" height="50" alt="Logo" />
+                                             </a>
+                                             <a href="/" class="logo-sticky">
+                                                 <img src="images/logo-dark.png" class="img-fluid changeable-dark"
+                                                     width="166" height="50" alt="Logo" />
+                                             </a>
                                          </li>
                                      </ul>
                                      <!-- Menu -->
@@ -142,20 +153,19 @@
                                          <!-- List Item -->
                                          <li class="list-item">
                                              <ul class="nav navbar-main menu-dark">
-                                                 <li class="active">
+                                                 <li class="{{ request()->routeIs('welcome') ? 'active' : '' }}">
                                                      <a href="{{ route('welcome') }}">Home</a>
                                                  </li>
-                                                 <li>
+                                                 <li class="{{ request()->routeIs('about-us') ? 'active' : '' }}">
                                                      <a href="{{ route('about-us') }}">About Us</a>
                                                  </li>
-                                                 <li>
+                                                 <li class="{{ request()->routeIs('donate-now') ? 'active' : '' }}">
+                                                     <a href="{{ route('donate-now') }}">Donate Now</a>
+                                                 </li>
+                                                 <li class="{{ request()->routeIs('events') ? 'active' : '' }}">
                                                      <a href="{{ route('events') }}">Events</a>
                                                  </li>
-
-                                                 <li>
-                                                     <a href="{{ route('campaigns') }}">Campaigns</a>
-                                                 </li>
-                                                 <li>
+                                                 <li class="{{ request()->routeIs('contact-us') ? 'active' : '' }}">
                                                      <a href="{{ route('contact-us') }}">Contact Us</a>
                                                  </li>
                                              </ul>
@@ -170,7 +180,6 @@
                                          <!-- Donate Button End -->
                                      </ul>
                                      <!-- Menu -->
-
                                  </div>
                              </div>
                              <!--Search-->

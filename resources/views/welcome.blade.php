@@ -6,8 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="images/favicon.png" rel="icon" />
-    <!--Title-->
-    <title>Zegen - Home 2</title>
+
+    <!-- Title -->
+    <title>Spirit Light Ministries Online Church - Connecting Faith Worldwide</title>
+
+    <!-- Meta Description -->
+    <meta name="description"
+        content="Join Spirit Light Ministries Online Church for uplifting worship services broadcasted globally on platforms like IMO, TikTok, YouTube, and Facebook. Led by Prophet Caleb Wekesa and Pastor Jephter Wekeda (PJ Wekesa), we aim to connect faith and community." />
+
+    <!-- Meta Keywords -->
+    <meta name="keywords"
+        content="Spirit Light Ministries, online church, church services, worship, faith community, Prophet Caleb Wekesa, Pastor Jephter Wekeda, TikTok, YouTube, Facebook, IMO" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Spirit Light Ministries Online Church" />
+    <meta property="og:description" content="Join our online worship services from anywhere in the world." />
+    <meta property="og:image" content="\images\logo-dark.png" /> <!-- Update with your church logo image -->
+    <meta property="og:url" content="https://prophetjeffter.com" /> <!-- Update with your actual URL -->
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Spirit Light Ministries Online Church" />
+    <meta name="twitter:description" content="Connect with us for powerful worship services streamed online." />
+    <meta name="twitter:image" content="\images\logo-dark.png" /> <!-- Update with your church logo image -->
+
     <!-- CSS -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -24,7 +47,6 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
     <!-- Revolution Slider -->
     <link rel="stylesheet" type="text/css" href="rs-plugin/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css" />
-    <!-- REVOLUTION STYLE SHEETS -->
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" />
     <link rel="stylesheet" type="text/css" href="rs-plugin/css/home-2/rs6.css" />
     <!-- Color Panel -->
@@ -32,6 +54,8 @@
     <link rel="stylesheet" href="css/color-schemes/red.css" id="changeable-colors" />
     <!-- Main Style -->
     <link rel="stylesheet" href="css/style.css" class="main-style" />
+
+
     <style>
         #rev_slider_6_1_wrapper .tp-loader.spinner1 {
             background-color: #ffffff !important;
@@ -124,7 +148,7 @@
                         data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;" data-frame_1_mask="u:t;"
                         data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:3790;" data-frame_999_reverse="x:true;"
                         style="z-index: 10; font-family: 'Open Sans'">
-                        We Call, Price the Lord
+                        Welcome to Spirit Light Ministries Online Church
                     </h1>
                     <!--
 
@@ -134,21 +158,19 @@
                         data-dim="w:612px,424px,auto,auto;" data-padding="b:10;" data-frame_0="sX:2;sY:2;"
                         data-frame_0_mask="u:t;" data-frame_1="e:power2.out;st:640;sp:1000;sR:640;"
                         data-frame_1_mask="u:t;" data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:7360;"
-                        data-frame_999_reverse="x:true;" style="z-index: 11; font-family: 'Poppins'">We're
-                        Building Them A Home </rs-layer><!--
+                        data-frame_999_reverse="x:true;" style="z-index: 11; font-family: 'Poppins'">Bringing God's
+                        Light to the World </rs-layer><!--
 
        --><rs-layer id="slider-2-slide-5-layer-14" data-type="text" data-rsp_ch="on"
                         data-xy="x:c;xo:0,0,0,7px;y:m,t,t,t;yo:91px,312px,271px,218px;"
                         data-text="w:normal;s:18,18,16,15;l:31,30,30,27;a:center;"
                         data-dim="w:806px,805px,689px,388px;h:auto,auto,auto,89px;" data-frame_0="y:100%;"
                         data-frame_0_mask="u:t;" data-frame_1="st:2680;sp:1360;sR:2680;" data-frame_1_mask="u:t;"
-                        data-frame_999="o:0;st:w;sR:4960;" style="z-index: 9; font-family: 'Open Sans'">Jesus is holy,
-                        loving, and worthy of all
-                        our worship and
-                        devotion. You will feel the heaven in our Zegen Church. Join
-                        with us and Praise the Lord Jesus. </rs-layer><!--
+                        data-frame_999="o:0;st:w;sR:4960;" style="z-index: 9; font-family: 'Open Sans'">Join us in
+                        worship from anywhere in the world. Led by Prophet Caleb Wekesa and Pastor Jephter Wekesa, we’re
+                        here to guide you in faith and spiritual growth. </rs-layer><!--
 
-       --><a id="slider-2-slide-5-layer-19" class="rs-layer rev-btn" href="donate-now.html" target="_self"
+       --><a id="slider-2-slide-5-layer-19" class="rs-layer rev-btn" href="donate-now" target="_self"
                         data-type="button" data-rsp_ch="on" data-xy="x:c;xo:0,0,0,5px;yo:526px,404px,361px,323px;"
                         data-text="w:normal;s:18,14,14,12;l:50,41,36,32;fw:700;" data-dim="minh:0px,none,none,none;"
                         data-padding="t:0,0,10,10;r:40,40,25,25;b:0,0,10,10;l:40,40,25,25;"
@@ -176,7 +198,7 @@
                         data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;" data-frame_1_mask="u:t;"
                         data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:4190;" data-frame_999_reverse="x:true;"
                         style="z-index: 10; font-family: 'Open Sans'">
-                        God Gives Us Power
+                        Connect with Us for Live Worship Services
                     </h1>
                     <!--
 
@@ -186,21 +208,19 @@
                         data-dim="w:612px,424px,auto,auto;" data-padding="b:10;" data-frame_0="sX:2;sY:2;"
                         data-frame_0_mask="u:t;" data-frame_1="e:power2.out;st:640;sp:1000;sR:640;"
                         data-frame_1_mask="u:t;" data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:7360;"
-                        data-frame_999_reverse="x:true;" style="z-index: 11; font-family: 'Poppins'">We're
-                        Building Them A Home </rs-layer><!--
+                        data-frame_999_reverse="x:true;" style="z-index: 11; font-family: 'Poppins'">Experience
+                        Worship Anytime, Anywhere </rs-layer><!--
 
        --><rs-layer id="slider-2-slide-7-layer-14" data-type="text" data-rsp_ch="on"
                         data-xy="x:c;xo:0,0,0,7px;y:m,t,t,t;yo:91px,312px,271px,212px;"
                         data-text="w:normal;s:18,18,16,15;l:31,30,30,27;a:center;"
                         data-dim="w:806px,805px,689px,388px;h:auto,auto,auto,89px;" data-frame_0="y:100%;"
                         data-frame_0_mask="u:t;" data-frame_1="st:2680;sp:1360;sR:2680;" data-frame_1_mask="u:t;"
-                        data-frame_999="o:0;st:w;sR:4960;" style="z-index: 9; font-family: 'Open Sans'">Jesus is holy,
-                        loving, and worthy of all
-                        our worship and
-                        devotion. You will feel the heaven in our Zegen Church. Join
-                        with us and Praise the Lord Jesus. </rs-layer><!--
+                        data-frame_999="o:0;st:w;sR:4960;" style="z-index: 9; font-family: 'Open Sans'">Stream our
+                        powerful worship services on Facebook, YouTube, TikTok, and IMO. Worship with us weekly and
+                        bring God’s Word directly into your home. </rs-layer><!--
 
-       --><a id="slider-2-slide-7-layer-19" class="rs-layer rev-btn" href="donate-now.html" target="_self"
+       --><a id="slider-2-slide-7-layer-19" class="rs-layer rev-btn" href="donate-now" target="_self"
                         data-type="button" data-rsp_ch="on" data-xy="x:c;xo:0,0,0,5px;yo:526px,404px,361px,317px;"
                         data-text="w:normal;s:18,14,14,12;l:50,41,36,32;fw:700;" data-dim="minh:0px,none,none,none;"
                         data-padding="t:0,0,10,10;r:40,40,25,25;b:0,0,10,10;l:40,40,25,25;"
@@ -228,7 +248,7 @@
                         data-frame_1_chars="e:power4.inOut;d:10;rZ:0deg;" data-frame_1_mask="u:t;"
                         data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:3890;" data-frame_999_reverse="x:true;"
                         style="z-index: 10; font-family: 'Open Sans'">
-                        Let's Bring Them Home
+                        Meet Our Spiritual Leaders
                     </h1>
                     <!--
 
@@ -238,21 +258,19 @@
                         data-dim="w:612px,424px,auto,auto;" data-padding="b:10;" data-frame_0="sX:2;sY:2;"
                         data-frame_0_mask="u:t;" data-frame_1="e:power2.out;st:640;sp:1000;sR:640;"
                         data-frame_1_mask="u:t;" data-frame_999="x:left;e:power3.in;st:w;sp:1000;sR:7360;"
-                        data-frame_999_reverse="x:true;" style="z-index: 11; font-family: 'Poppins'">We're
-                        Building Them A Home </rs-layer><!--
+                        data-frame_999_reverse="x:true;" style="z-index: 11; font-family: 'Poppins'">Guiding You in
+                        Faith and Truth </rs-layer><!--
 
        --><rs-layer id="slider-2-slide-8-layer-14" data-type="text" data-rsp_ch="on"
                         data-xy="x:c;xo:0,0,0,7px;y:m,t,t,t;yo:91px,312px,271px,210px;"
                         data-text="w:normal;s:18,18,16,15;l:31,30,30,27;a:center;"
                         data-dim="w:806px,805px,689px,388px;h:auto,auto,auto,89px;" data-frame_0="y:100%;"
                         data-frame_0_mask="u:t;" data-frame_1="st:2680;sp:1360;sR:2680;" data-frame_1_mask="u:t;"
-                        data-frame_999="o:0;st:w;sR:4960;" style="z-index: 9; font-family: 'Open Sans'">Zegen Church
-                        WordPress Theme comes with
-                        sermons, ministries,
-                        events, testimonials, staff members, church locations
-                        shortcodes to enhance your website. </rs-layer><!--
+                        data-frame_999="o:0;st:w;sR:4960;" style="z-index: 9; font-family: 'Open Sans'">Prophet Caleb
+                        Wekesa and Pastor Jephter Wekesa lead our ministry with faith and vision. Join our Spirit Light
+                        Ministries family today. </rs-layer><!--
 
-       --><a id="slider-2-slide-8-layer-19" class="rs-layer rev-btn" href="donate-now.html" target="_self"
+       --><a id="slider-2-slide-8-layer-19" class="rs-layer rev-btn" href="donate-now" target="_self"
                         data-type="button" data-rsp_ch="on" data-xy="x:c;xo:0,0,0,5px;yo:526px,404px,361px,315px;"
                         data-text="w:normal;s:18,14,14,12;l:50,41,36,32;fw:700;" data-dim="minh:0px,none,none,none;"
                         data-padding="t:0,0,10,10;r:40,40,25,25;b:0,0,10,10;l:40,40,25,25;"
@@ -305,7 +323,7 @@
                                             <div class="section-title">
                                                 <span class="sub-title theme-color text-uppercase">Sermons</span>
                                                 <h2 class="section-title margin-top-5">
-                                                    Our Sermons
+                                                    Latest Sermons and Teachings
                                                 </h2>
                                                 <span class="border-bottom center"></span>
                                             </div>
@@ -324,58 +342,61 @@
                                                 <div class="sermon-play-list margin-bottom-20">
                                                     <ul>
                                                         <li>
-                                                            <a href="images/sermons/sample-video.mp4"
-                                                                class="popup-video" title="Video" download=""><i
-                                                                    class="ti-control-play"></i></a>
+                                                            <a href="https://youtube.com/@pj_wekesa?si=mMD9En8rW6L8tmEN"
+                                                                class="popup-video" title="Watch Video"
+                                                                download="">
+                                                                <i class="ti-control-play"></i>
+                                                            </a>
                                                         </li>
                                                         <li>
-                                                            <a href="images/sermons/sample-audio.mp3"
-                                                                class="popup-audio" title="Audio" download=""><i
-                                                                    class="ti-music"></i></a>
+                                                            <a href="https://youtube.com/@pj_wekesa?si=mMD9En8rW6L8tmEN"
+                                                                class="popup-audio" title="Listen to Audio"
+                                                                download="">
+                                                                <i class="ti-music"></i>
+                                                            </a>
                                                         </li>
                                                         <li>
-                                                            <a href="images/sermons/sample-pdf.pdf" class="sermon-pdf"
-                                                                title="PDF" target="_blank"><i
-                                                                    class="ti-book"></i></a>
+                                                            <a href="https://youtube.com/@pj_wekesa?si=mMD9En8rW6L8tmEN"
+                                                                class="sermon-pdf" title="Download PDF"
+                                                                target="_blank">
+                                                                <i class="ti-book"></i>
+                                                            </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="sermon-title">
                                                     <h4 class="margin-bottom-10">
-                                                        <a href="sermon-details.html" class="sermon-name">Spiritually
-                                                            Reborn As God’s
-                                                            Children</a>
+                                                        <a href="/contact-us" class="sermon-name">Living by
+                                                            Faith in Challenging Times</a>
                                                     </h4>
                                                 </div>
                                                 <div class="sermon-info mt-2 pb-1">
                                                     <ul>
                                                         <li>
                                                             <span class="title">Sermon By:</span>
-                                                            <a href="#">Jackson West</a>,
-                                                            <a href="#">Jorge Malone</a>
+                                                            <a href="#">Prophet Caleb Wekesa</a>
                                                         </li>
                                                         <li>
                                                             <span class="title">Categories:</span>
-                                                            <a href="#">God</a>, <a href="#">Pray</a>
+                                                            <a href="#">Faith</a>, <a
+                                                                href="#">Strength</a>
                                                         </li>
                                                         <li class="ms-2">
-                                                            <a href="#"><i class="ti-time me-2"></i>Nov
-                                                                19,
-                                                                2019</a>
+                                                            <a href="#"><i class="ti-time me-2"></i>Oct 25,
+                                                                2024</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="post-meta bottom-meta margin-top-20">
                                                 <div class="sermon-link">
-                                                    <a target="_blank" href="sermon-details.html"
+                                                    <a target="_blank" href="/contact-us"
                                                         class="link theme-color">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <!--Sermon Inner Ends-->
                                     </div>
-                                    <!-- Col -->
                                     <!-- Col -->
                                     <div class="col-md-4 mb-4 mb-md-0">
                                         <!--Sermon Inner-->
@@ -389,57 +410,61 @@
                                                 <div class="sermon-play-list margin-bottom-20">
                                                     <ul>
                                                         <li>
-                                                            <a href="images/sermons/sample-video.mp4"
-                                                                class="popup-video" title="Video" download=""><i
-                                                                    class="ti-control-play"></i></a>
+                                                            <a href="https://youtube.com/@pj_wekesa?si=mMD9En8rW6L8tmEN"
+                                                                class="popup-video" title="Watch Video"
+                                                                download="">
+                                                                <i class="ti-control-play"></i>
+                                                            </a>
                                                         </li>
                                                         <li>
-                                                            <a href="images/sermons/sample-audio.mp3"
-                                                                class="popup-audio" title="Audio" download=""><i
-                                                                    class="ti-music"></i></a>
+                                                            <a href="https://youtube.com/@pj_wekesa?si=mMD9En8rW6L8tmEN"
+                                                                class="popup-audio" title="Listen to Audio"
+                                                                download="">
+                                                                <i class="ti-music"></i>
+                                                            </a>
                                                         </li>
                                                         <li>
-                                                            <a href="images/sermons/sample-pdf.pdf" class="sermon-pdf"
-                                                                title="PDF" target="_blank"><i
-                                                                    class="ti-book"></i></a>
+                                                            <a href="https://youtube.com/@pj_wekesa?si=mMD9En8rW6L8tmEN"
+                                                                class="sermon-pdf" title="Download PDF"
+                                                                target="_blank">
+                                                                <i class="ti-book"></i>
+                                                            </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="sermon-title">
                                                     <h4 class="margin-bottom-10">
-                                                        <a href="sermon-details.html" class="sermon-name">Preaching
-                                                            Worship An Online
-                                                            Family</a>
+                                                        <a href="/contact-us" class="sermon-name">Embracing
+                                                            Hope in the Midst of Uncertainty</a>
                                                     </h4>
                                                 </div>
                                                 <div class="sermon-info mt-2 pb-1">
                                                     <ul>
                                                         <li>
                                                             <span class="title">Sermon By:</span>
-                                                            <a href="#">Jackson West</a>
+                                                            <a href="#">Pastor Jephter Wekesa</a>
                                                         </li>
                                                         <li>
                                                             <span class="title">Categories:</span>
-                                                            <a href="#">God</a>, <a href="#">Hope</a>
+                                                            <a href="#">Hope</a>, <a
+                                                                href="#">Resilience</a>
                                                         </li>
                                                         <li class="ms-2">
-                                                            <a href="#"><i class="ti-time me-2"></i>Nov
-                                                                19,
-                                                                2019</a>
+                                                            <a href="#"><i class="ti-time me-2"></i>Nov 2,
+                                                                2024</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="post-meta bottom-meta margin-top-20">
                                                 <div class="sermon-link">
-                                                    <a target="_blank" href="sermon-details.html"
+                                                    <a target="_blank" href="/contact-us"
                                                         class="link theme-color">Read More</a>
                                                 </div>
                                             </div>
                                         </div>
                                         <!--Sermon Inner Ends-->
                                     </div>
-                                    <!-- Col -->
                                     <!-- Col -->
                                     <div class="col-md-4">
                                         <!--Sermon Inner-->
@@ -453,51 +478,56 @@
                                                 <div class="sermon-play-list margin-bottom-20">
                                                     <ul>
                                                         <li>
-                                                            <a href="images/sermons/sample-video.mp4"
-                                                                class="popup-video" title="Video" download=""><i
-                                                                    class="ti-control-play"></i></a>
+                                                            <a href="https://youtube.com/@pj_wekesa?si=mMD9En8rW6L8tmEN"
+                                                                class="popup-video" title="Watch Video"
+                                                                download="">
+                                                                <i class="ti-control-play"></i>
+                                                            </a>
                                                         </li>
                                                         <li>
-                                                            <a href="images/sermons/sample-audio.mp3"
-                                                                class="popup-audio" title="Audio" download=""><i
-                                                                    class="ti-music"></i></a>
+                                                            <a href="https://youtube.com/@pj_wekesa?si=mMD9En8rW6L8tmEN"
+                                                                class="popup-audio" title="Listen to Audio"
+                                                                download="">
+                                                                <i class="ti-music"></i>
+                                                            </a>
                                                         </li>
                                                         <li>
-                                                            <a href="images/sermons/sample-pdf.pdf" class="sermon-pdf"
-                                                                title="PDF" target="_blank"><i
-                                                                    class="ti-book"></i></a>
+                                                            <a href="https://youtube.com/@pj_wekesa?si=mMD9En8rW6L8tmEN"
+                                                                class="sermon-pdf" title="Download PDF"
+                                                                target="_blank">
+                                                                <i class="ti-book"></i>
+                                                            </a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                                 <div class="sermon-title">
                                                     <h4 class="margin-bottom-10">
-                                                        <a href="sermon-details.html" class="sermon-name">Sunday
-                                                            Sermon from the
-                                                            Church</a>
+                                                        <a href="/contact-us" class="sermon-name">Walking in
+                                                            God's Purpose for Your Life</a>
                                                     </h4>
                                                 </div>
                                                 <div class="sermon-info mt-2 pb-1">
                                                     <ul>
                                                         <li>
                                                             <span class="title">Sermon By:</span>
-                                                            <a href="#">Jackson West</a>,
-                                                            <a href="#">Jeffery Edwards</a>
+                                                            <a href="#">Prophet Caleb Wekesa</a>, <a
+                                                                href="#">Pastor Jephter Wekesa</a>
                                                         </li>
                                                         <li>
                                                             <span class="title">Categories:</span>
-                                                            <a href="#">God</a>, <a href="#">Holiday</a>
+                                                            <a href="#">Purpose</a>, <a href="#">Spiritual
+                                                                Growth</a>
                                                         </li>
                                                         <li class="ms-2">
-                                                            <a href="#"><i class="ti-time me-2"></i>Nov
-                                                                19,
-                                                                2019</a>
+                                                            <a href="#"><i class="ti-time me-2"></i>Nov 5,
+                                                                2024</a>
                                                         </li>
                                                     </ul>
                                                 </div>
                                             </div>
                                             <div class="post-meta bottom-meta margin-top-20">
                                                 <div class="sermon-link">
-                                                    <a target="_blank" href="sermon-details.html"
+                                                    <a target="_blank" href="/contact-us"
                                                         class="link theme-color">Read More</a>
                                                 </div>
                                             </div>
@@ -517,6 +547,7 @@
                 <!-- Container -->
             </section>
             <!-- Sermon Section End -->
+
             <!-- About Section -->
             <section id="section-about"
                 class="section-about pad-top-none pad-bottom-none pb-5 pb-lg-0 pad-bottom-md-none">
@@ -530,11 +561,11 @@
                                 <div class="about-wrap-inner">
                                     <!-- about details -->
                                     <div class="about-wrap-details">
-                                        <!-- about button -->
+                                        <!-- about image -->
                                         <div class="text-center">
                                             <div class="about-img mb-4 mb-md-0">
                                                 <img src="images/about-us/about-us-img.png" class=""
-                                                    alt="about-img" />
+                                                    alt="about Spirit Light Ministries" />
                                             </div>
                                             <!-- .col -->
                                         </div>
@@ -551,15 +582,17 @@
                                 <div class="section-title">
                                     <span class="sub-title theme-color text-uppercase">About Us</span>
                                     <h2 class="section-title margin-top-5">
-                                        We are Taking Small Steps to Make Earth Better Planet
+                                        Welcome to Spirit Light Ministries Online Church
                                     </h2>
                                     <span class="border-bottom"></span>
                                 </div>
                                 <div class="pad-top-15">
                                     <p class="margin-bottom-20">
-                                        We welcome you with great joy to Zegen Church. We are
-                                        here to share the great news of Jesus Christ to all
-                                        that will listen.
+                                        Spirit Light Ministries brings together believers from across the globe through
+                                        online services streamed on platforms like IMO, Tiktok, YouTube, and Facebook.
+                                        Led by Prophet Caleb Wekesa in our physical location and Pastor Jephter Wekeda
+                                        (PJ Wekesa) online, we are committed to sharing the light of God’s love
+                                        worldwide.
                                     </p>
                                 </div>
                             </div>
@@ -569,15 +602,16 @@
                                     <div class="feature-box-wrap f-box-style-1 relative">
                                         <div class="feature-box-details">
                                             <div class="feature-icon margin-bottom-25">
-                                                <span class="ti-heart b-radius-50 d-block"></span>
+                                                <span class="ti-world b-radius-50 d-block"></span>
                                             </div>
                                             <div class="feature-content">
                                                 <div class="feature-title relative margin-bottom-15">
-                                                    <h4>Place Of Heaven</h4>
+                                                    <h4>Worldwide Worship</h4>
                                                 </div>
                                                 <p class="mb-0">
-                                                    In Zegen you will feel divinity, piety,
-                                                    goodness, faith or right beliefs.
+                                                    Join Spirit Light Ministries from anywhere in the world. With
+                                                    services streamed on popular platforms, you are always close to
+                                                    God’s word, wherever you are.
                                                 </p>
                                             </div>
                                         </div>
@@ -589,15 +623,16 @@
                                     <div class="feature-box-wrap f-box-style-1 relative">
                                         <div class="feature-box-details">
                                             <div class="feature-icon margin-bottom-25">
-                                                <span class="ti-book b-radius-50 d-block"></span>
+                                                <span class="ti-microphone b-radius-50 d-block"></span>
                                             </div>
                                             <div class="feature-content">
                                                 <div class="feature-title relative margin-bottom-15">
-                                                    <h4>Study Bible</h4>
+                                                    <h4>Led by Faithful Leaders</h4>
                                                 </div>
                                                 <p class="mb-0">
-                                                    Learn the Bible enhance your wisdom, give you
-                                                    boldness about your faith.
+                                                    Under the guidance of Prophet Caleb Wekesa and Pastor Jephter
+                                                    Wekeda, Spirit Light Ministries is dedicated to inspiring faith,
+                                                    hope, and spiritual growth in all.
                                                 </p>
                                             </div>
                                         </div>
@@ -613,6 +648,7 @@
                 <!-- Container -->
             </section>
             <!-- About Section End -->
+
             <!-- Get a Quote Section -->
             <section id="get-quote-section" class="get-quote-section pad-none pad-bottom-md-none">
                 <div class="container">
@@ -630,7 +666,7 @@
                                         <div class="video-play-btn text-center">
                                             <div class="video-icon">
                                                 <a class="popup-youtube box-shadow1"
-                                                    href="https://www.youtube.com/watch?v=e1l1-LWTcBs">
+                                                    href="https://www.youtube.com/watch?v=54EwrxIEPpU">
                                                     <i class="ti-control-play"></i>
                                                 </a>
                                             </div>
@@ -646,9 +682,9 @@
                                 <div class="title-wrap mb-0">
                                     <div class="section-title typo-white mb-0">
                                         <h2 class="title mb-0">
-                                            “Pray! And listen to God! You can do this alone, but
-                                            find somebody to do it with you. We Still Worship
-                                            the Same God”
+                                            “Wherever you are, God hears you. Connect with us online, lift your voice in
+                                            prayer, and feel the unity of Spirit Light Ministries. We worship together,
+                                            no matter the distance.”
                                         </h2>
                                     </div>
                                 </div>
@@ -660,6 +696,7 @@
                 </div>
                 <!-- Container -->
             </section>
+
             <!-- Get a Quote Section End -->
 
             <!-- Day Counter Section -->
@@ -669,8 +706,7 @@
                 <div class="shape-top" data-negative="false">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8"
                         preserveAspectRatio="xMidYMax slice">
-                        <path class="shape-fill"
-                            d="M0 0v6.7c1.9-.8 4.7-1.4 8.5-1 9.5 1.1 11.1 6 11.1 6s2.1-.7 4.3-.2c2.1.5 2.8 2.6 2.8 2.6s.2-.5 1.4-.7c1.2-.2 1.7.2 1.7.2s0-2.1 1.9-2.8c1.9-.7 3.6.7 3.6.7s.7-2.9 3.1-4.1 4.7 0 4.7 0 1.2-.5 2.4 0 1.7 1.4 1.7 1.4h1.4c.7 0 1.2.7 1.2.7s.8-1.8 4-2.2c3.5-.4 5.3 2.4 6.2 4.4.4-.4 1-.7 1.8-.9 2.8-.7 4 .7 4 .7s1.7-5 11.1-6c9.5-1.1 12.3 3.9 12.3 3.9s1.2-4.8 5.7-5.7c4.5-.9 6.8 1.8 6.8 1.8s.6-.6 1.5-.9c.9-.2 1.9-.2 1.9-.2s5.2-6.4 12.6-3.3c7.3 3.1 4.7 9 4.7 9s1.9-.9 4 0 2.8 2.4 2.8 2.4 1.9-1.2 4.5-1.2 4.3 1.2 4.3 1.2.2-1 1.4-1.7 2.1-.7 2.1-.7-.5-3.1 2.1-5.5 5.7-1.4 5.7-1.4 1.5-2.3 4.2-1.1c2.7 1.2 1.7 5.2 1.7 5.2s.3-.1 1.3.5c.5.4.8.8.9 1.1.5-1.4 2.4-5.8 8.4-4 7.1 2.1 3.5 8.9 3.5 8.9s.8-.4 2 0 1.1 1.1 1.1 1.1 1.1-1.1 2.3-1.1 2.1.5 2.1.5 1.9-3.6 6.2-1.2 1.9 6.4 1.9 6.4 2.6-2.4 7.4 0c3.4 1.7 3.9 4.9 3.9 4.9s3.3-6.9 10.4-7.9 11.5 2.6 11.5 2.6.8 0 1.2.2c.4.2.9.9.9.9s4.4-3.1 8.3.2c1.9 1.7 1.5 5 1.5 5s.3-1.1 1.6-1.4c1.3-.3 2.3.2 2.3.2s-.1-1.2.5-1.9 1.9-.9 1.9-.9-4.7-9.3 4.4-13.4c5.6-2.5 9.2.9 9.2.9s5-6.2 15.9-6.2 16.1 8.1 16.1 8.1.7-.2 1.6-.4V0H0z">
+                        <path class="shape-fill" d="M0 0v6.7c1.9-.8 4.7-1.4 8.5-1...">
                         </path>
                     </svg>
                 </div>
@@ -679,9 +715,9 @@
                         <div class="offset-md-2 col-md-8">
                             <div class="title-wrap text-center mb-5">
                                 <div class="section-title">
-                                    <span class="sub-title theme-color text-uppercase">Events</span>
+                                    <span class="sub-title theme-color text-uppercase">Upcoming Event</span>
                                     <h2 class="section-title margin-top-5">
-                                        Free Family Event Countdown
+                                        Join Our Global Worship Countdown
                                     </h2>
                                     <span class="border-bottom center"></span>
                                 </div>
@@ -737,8 +773,8 @@
                                     <!-- .counter-sec -->
                                 </div>
                                 <!-- .day-counter -->
-                                <span class="custom-heading-title relative">Dec 24, 2022 - Wednesday 12 am to 4
-                                    am</span>
+                                <span class="custom-heading-title relative">December 24, 2024 - Join us at 12:00 AM for
+                                    a night of worship and unity online.</span>
                             </div>
                             <!-- .day-counter-wrapper -->
                         </div>
@@ -747,12 +783,12 @@
                 <div class="shape-bottom" data-negative="false">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8"
                         preserveAspectRatio="xMidYMax slice">
-                        <path class="shape-fill"
-                            d="M0 0v6.7c1.9-.8 4.7-1.4 8.5-1 9.5 1.1 11.1 6 11.1 6s2.1-.7 4.3-.2c2.1.5 2.8 2.6 2.8 2.6s.2-.5 1.4-.7c1.2-.2 1.7.2 1.7.2s0-2.1 1.9-2.8c1.9-.7 3.6.7 3.6.7s.7-2.9 3.1-4.1 4.7 0 4.7 0 1.2-.5 2.4 0 1.7 1.4 1.7 1.4h1.4c.7 0 1.2.7 1.2.7s.8-1.8 4-2.2c3.5-.4 5.3 2.4 6.2 4.4.4-.4 1-.7 1.8-.9 2.8-.7 4 .7 4 .7s1.7-5 11.1-6c9.5-1.1 12.3 3.9 12.3 3.9s1.2-4.8 5.7-5.7c4.5-.9 6.8 1.8 6.8 1.8s.6-.6 1.5-.9c.9-.2 1.9-.2 1.9-.2s5.2-6.4 12.6-3.3c7.3 3.1 4.7 9 4.7 9s1.9-.9 4 0 2.8 2.4 2.8 2.4 1.9-1.2 4.5-1.2 4.3 1.2 4.3 1.2.2-1 1.4-1.7 2.1-.7 2.1-.7-.5-3.1 2.1-5.5 5.7-1.4 5.7-1.4 1.5-2.3 4.2-1.1c2.7 1.2 1.7 5.2 1.7 5.2s.3-.1 1.3.5c.5.4.8.8.9 1.1.5-1.4 2.4-5.8 8.4-4 7.1 2.1 3.5 8.9 3.5 8.9s.8-.4 2 0 1.1 1.1 1.1 1.1 1.1-1.1 2.3-1.1 2.1.5 2.1.5 1.9-3.6 6.2-1.2 1.9 6.4 1.9 6.4 2.6-2.4 7.4 0c3.4 1.7 3.9 4.9 3.9 4.9s3.3-6.9 10.4-7.9 11.5 2.6 11.5 2.6.8 0 1.2.2c.4.2.9.9.9.9s4.4-3.1 8.3.2c1.9 1.7 1.5 5 1.5 5s.3-1.1 1.6-1.4c1.3-.3 2.3.2 2.3.2s-.1-1.2.5-1.9 1.9-.9 1.9-.9-4.7-9.3 4.4-13.4c5.6-2.5 9.2.9 9.2.9s5-6.2 15.9-6.2 16.1 8.1 16.1 8.1.7-.2 1.6-.4V0H0z">
+                        <path class="shape-fill" d="M0 0v6.7c1.9-.8 4.7-1.4 8.5-1...">
                         </path>
                     </svg>
                 </div>
             </section>
+
             <!-- Day Counter Section End -->
 
             <!-- Contact Section -->
@@ -760,73 +796,8 @@
                 <div class="container">
                     <div class="row">
                         <!-- col -->
-                        <div class="col-xl-8 px-3 pe-xl-0 mb-lg-5 mb-xl-0">
-                            <!-- Contact Form -->
-                            <div class="contact-form-4 bg-white">
-                                <!-- Form -->
-                                <div class="contact-form-wrap">
-                                    <!-- form inputs -->
-                                    <form id="contact-form-1" class="contact-form"
-                                        action="https://zozothemes.com/html/zegen/inc/function.php"
-                                        enctype="multipart/form-data">
-                                        <div class="row">
-                                            <div class="col-md-12">
-                                                <!-- form group -->
-                                                <div class="form-group">
-                                                    <input id="name" class="form-control" name="name"
-                                                        placeholder="Name" data-bv-field="name" type="text" />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <!-- form group -->
-                                                <div class="form-group">
-                                                    <input id="email" class="form-control" name="email"
-                                                        placeholder="Email" data-bv-field="email" type="email" />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <!-- form group -->
-                                                <div class="form-group">
-                                                    <input id="phone" class="form-control" name="phone"
-                                                        placeholder="Phone" data-bv-field="phone" type="text" />
-                                                </div>
-                                            </div>
-                                            <div class="col-md-12">
-                                                <div class="contact-message">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <textarea id="message" class="form-control textarea" rows="5" name="message" placeholder="Your Message"
-                                                            data-bv-field="message"></textarea>
-                                                    </div>
-                                                </div>
-                                                <!-- form group -->
-                                                <div class="form-group height-zero mb-0">
-                                                    <input class="height-zero" type="text" id="hidden-grecaptcha"
-                                                        name="hidden-grecaptcha" value="" />
-                                                </div>
-                                                <!-- form button -->
-                                                <button type="submit" id="contact-submit"
-                                                    class="btn btn-default mt-0 theme-btn">
-                                                    Send Now
-                                                </button>
-                                            </div>
-                                        </div>
-                                        <span class="clearfix"></span>
-                                    </form>
-                                    <!-- form inputs end -->
-                                    <p id="contact-status-msg" class="hide"></p>
-                                </div>
-                                <!-- Form End-->
-                            </div>
-                            <!-- contact-form-1 -->
-                        </div>
-                        <!-- .col -->
-                        <div class="col-xl-4 px-3 ps-xl-0">
-                            <div class="contact-img">
-                                <img class="img-fluid" src="images/contact/contact_bg4.jpg" width="752"
-                                    height="888" alt="Contact Map" />
-                            </div>
-                        </div>
+
+
                         <!-- Col -->
                     </div>
                 </div>

@@ -7,8 +7,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="images/favicon.png" rel="icon" />
-    <!--Title-->
-    <title>Zegen - Donate Now</title>
+
+    <!-- Title -->
+    <title>Spirit Light Ministries Online Church - Donate Now</title>
+
+    <!-- Meta Description -->
+    <meta name="description"
+        content="Support Spirit Light Ministries Online Church by making a donation. Your contributions help us continue our mission to spread faith and community." />
+
+    <!-- Meta Keywords -->
+    <meta name="keywords"
+        content="Spirit Light Ministries, donate, online church donations, charitable giving, faith community, support our mission, Prophet Caleb Wekesa, Pastor Jephter Wekeda" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Donate Now - Spirit Light Ministries Online Church" />
+    <meta property="og:description"
+        content="Join us in making a difference! Your donations to Spirit Light Ministries help support our community and outreach programs." />
+    <meta property="og:image" content="\images\logo-dark.png" /> <!-- Update with your church logo image -->
+    <meta property="og:url" content="https://prophetjeffter.com/donate-now" />
+    <!-- Update with the actual URL of the donation page -->
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Donate Now - Spirit Light Ministries Online Church" />
+    <meta name="twitter:description"
+        content="Support our mission through your generous donations. Every contribution helps us reach more people in faith." />
+    <meta name="twitter:image" content="\images\logo-dark.png" /> <!-- Update with your church logo image -->
+
     <!-- CSS -->
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -29,6 +55,7 @@
     <!-- Main Style -->
     <link rel="stylesheet" href="css/style.css" class="main-style">
 </head>
+
 <!--Body Start-->
 
 <body data-res-from="1025">
@@ -67,63 +94,7 @@
                         <!-- Row -->
                         <div class="row">
                             <!-- Col -->
-                            <div class="col-lg-4 pe-5 px-sm-15">
-                                <!-- Sidebar -->
-                                <div class="sidebar left-sidebar">
-                                    <!-- Campaign -->
-                                    <div class="widget charitable-campaigns-widget mb-0">
-                                        <ol class="campaigns ps-0 mb-0">
-                                            <li class="campaign">
-                                                <img class="img-fluid squared w-100 mb-3"
-                                                    src="images/campaigns/campaign1.jpg" width="768" height="456"
-                                                    alt="Adopt Child">
-                                                <h6 class="campaign-title mb-1"><a href="campaigns-single.html">Adopt
-                                                        Child</a></h6>
-                                                <div class="campaign-time-left"><span
-                                                        class="amount time-left days-left">392</span> Days Left</div>
-                                            </li>
-                                            <li class="campaign">
-                                                <img class="img-fluid squared w-100 mb-3"
-                                                    src="images/campaigns/campaign2.jpg" width="768" height="456"
-                                                    alt="Medical Treatment">
-                                                <h6 class="campaign-title mb-1"><a href="campaigns-single.html">Medical
-                                                        Treatment</a></h6>
-                                                <div class="campaign-time-left"><span
-                                                        class="amount time-left days-left">167</span> Days Left</div>
-                                            </li>
-                                            <li class="campaign">
-                                                <img class="img-fluid squared w-100 mb-3"
-                                                    src="images/campaigns/campaign3.jpg" width="768" height="456"
-                                                    alt="Donate Clothes">
-                                                <h6 class="campaign-title mb-1"><a href="campaigns-single.html">Donate
-                                                        Clothes</a></h6>
-                                                <div class="campaign-time-left"><span
-                                                        class="amount time-left days-left">153</span> Days Left</div>
-                                            </li>
-                                            <li class="campaign">
-                                                <img class="img-fluid squared w-100 mb-3"
-                                                    src="images/campaigns/campaign4.jpg" width="768" height="456"
-                                                    alt="Shelters For Needy">
-                                                <h6 class="campaign-title mb-1"><a href="campaigns-single.html">Shelters
-                                                        For Needy</a></h6>
-                                                <div class="campaign-time-left"><span
-                                                        class="amount time-left days-left">119</span> Days Left</div>
-                                            </li>
-                                            <li class="campaign">
-                                                <img class="img-fluid squared w-100 mb-3"
-                                                    src="images/campaigns/campaign5.jpg" width="768"
-                                                    height="456" alt="Hygienic Food">
-                                                <h6 class="campaign-title mb-1"><a
-                                                        href="campaigns-single.html">Hygienic Food</a></h6>
-                                                <div class="campaign-time-left"><span
-                                                        class="amount time-left days-left">100</span> Days Left</div>
-                                            </li>
-                                        </ol>
-                                    </div>
-                                    <!-- Campaign -->
-                                </div>
-                                <!-- Sidebar -->
-                            </div>
+
                             <!-- Col -->
                             <div class="col-lg-8">
                                 <div class="title-wrap margin-bottom-25">
@@ -132,167 +103,9 @@
                                         <h2 class="section-title margin-top-5">Save the Humanity, Save Life</h2>
                                         <span class="border-bottom"></span>
                                     </div>
-                                    <div class="pad-top-15">
-                                        <p class="margin-bottom-20">Lorem ipsum dolor sit amet, consectetur adipisi
-                                            cing elit dolo rem consequ untur natus laudantium commodie adipis.</p>
-                                        <a href="#" class="margin-bottom-20">Registered before? Log in to use
-                                            your saved details.</a>
-                                    </div>
                                 </div>
                                 <!-- Contact Form -->
-                                <div class="contact-form-4 pt-2">
-                                    <!-- Form -->
-                                    <div class="contact-form-wrap">
-                                        <!-- form inputs -->
-                                        <form id="contact-form" class="contact-form donate-form"
-                                            action="https://zozothemes.com/html/zegen/inc/function.php"
-                                            enctype="multipart/form-data">
-                                            <input type="hidden" name="zegen_form_submit" value="donation_form" />
-                                            <div class="row donation-fields">
-                                                <h3 class="form-title">Your Donation</h3>
-                                                <div class="col-md-6 pe-2 pb-3">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <input id="donation_amount1"
-                                                            class="form-control donation_amount"
-                                                            name="donation_amount" placeholder="$2,000.00"
-                                                            type="radio" value="2000">
-                                                        <label for="donation_amount1" class="amount">$2,000.00</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-6 ps-2 pb-3">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <input id="donation_amount2"
-                                                            class="form-control donation_amount"
-                                                            name="donation_amount" placeholder="$4,000.00"
-                                                            type="radio" value="4000">
-                                                        <label for="donation_amount2" class="amount">$4,000.00</label>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 custom-donation-amount">
-                                                    <label>Custom amount
-                                                        <input id="custom_donation_amount" class="form-control mb-0"
-                                                            name="donation_amount" type="text"></label>
-                                                </div>
-                                            </div>
-                                            <div class="row regular-fields">
-                                                <h3 class="form-title">Details</h3>
-                                                <div class="col-md-12 mb-2">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <label>First name *</label>
-                                                        <input id="first-name" class="form-control" name="first_name"
-                                                            data-bv-field="first_name" type="text" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-2">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <label>Last name *</label>
-                                                        <input id="last-name" class="form-control" name="last_name"
-                                                            data-bv-field="last_name" type="text" />
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-2">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <label>Email *</label>
-                                                        <input id="email" class="form-control" name="email"
-                                                            data-bv-field="email" type="email">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-2">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <label>Address</label>
-                                                        <input id="address" class="form-control" name="address"
-                                                            data-bv-field="address" type="text">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-2">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <label>Address 2</label>
-                                                        <input id="address2" class="form-control" name="address2"
-                                                            data-bv-field="address2" type="text">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-2">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <label>City</label>
-                                                        <input id="city" class="form-control" name="city"
-                                                            data-bv-field="city" type="text">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-2">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <label>State</label>
-                                                        <input id="state" class="form-control" name="state"
-                                                            data-bv-field="state" type="text">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-2">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <label>Postcode</label>
-                                                        <input id="postcode" class="form-control" name="postcode"
-                                                            data-bv-field="postcode" type="text">
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-2">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <label>Country</label>
-                                                        <select id="country" class="form-control" name="country">
-                                                            <option value="afghanistan">Afghanistan</option>
-                                                            <option value="albania">Albania</option>
-                                                            <option value="algeria">Algeria</option>
-                                                            <option value="andorra">Andorra</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-12 mb-0">
-                                                    <!-- form group -->
-                                                    <div class="form-group">
-                                                        <label>Phone Number</label>
-                                                        <input id="phone" class="form-control" name="phone"
-                                                            data-bv-field="phone" type="text">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row payment-fields">
-                                                <h3 class="form-title">Payment</h3>
-                                                <ul class="radio-list">
-                                                    <li>
-                                                        <input type="radio" id="paypal" name="fav_language"
-                                                            value="PayPal" checked>
-                                                        <label for="paypal">PayPal</label>
-                                                    </li>
-                                                    <li>
-                                                        <input type="radio" id="offline-donation"
-                                                            name="fav_language" value="Offline Donation">
-                                                        <label for="offline-donation">Offline Donation</label>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-md-12">
-                                                    <!-- form button -->
-                                                    <button type="submit" id="contact-submit"
-                                                        class="btn btn-default mt-0 theme-btn">Donate</button>
-                                                </div>
-                                            </div>
-                                            <span class="clearfix"></span>
-                                        </form>
-                                        <!-- form inputs end -->
-                                        <p id="contact-status-msg" class="hide"></p>
-                                    </div>
-                                    <!-- Form End-->
-                                </div>
-                                <!-- contact-form-1 -->
+
                             </div>
                             <!-- Col -->
                         </div>
@@ -305,10 +118,157 @@
             <!-- Sermon Section End -->
         </div>
     </div>
-    </div>
-    <!-- .page-wrapper-inner -->
-    </div>
-    <!--page-wrapper-->
+    <section class="donation-section"
+        style="font-family: 'Poppins', sans-serif; background: linear-gradient(135deg, #ffffff 0%, #f4f4f4 100%); padding: 4rem 2rem; display: flex; flex-wrap: wrap; gap: 2rem; justify-content: center; align-items: stretch; max-width: 1400px; margin: 0 auto; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.1);">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+            :root {
+                --primary-red: #dc3545;
+                --secondary-red: #c82333;
+                --light-background: #f8f9fa;
+                --text-dark: #333;
+            }
+
+            .donation-section * {
+                font-family: 'Poppins', sans-serif;
+            }
+
+            .donation-card {
+                background: white;
+                border-radius: 15px;
+                padding: 1.5rem;
+                box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+                transition: transform 0.3s ease, box-shadow 0.3s ease;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+            }
+
+            .donation-card:hover {
+                transform: translateY(-10px);
+                box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+            }
+
+            .donation-card-icon {
+                width: 80px;
+                height: 80px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: #f8f9fa;
+                border-radius: 15px;
+            }
+
+            .donation-card-icon img {
+                max-width: 60px;
+                max-height: 60px;
+                object-fit: contain;
+            }
+
+            .donation-button {
+                display: inline-block;
+                background-color: var(--primary-red);
+                color: white;
+                padding: 0.75rem 1.5rem;
+                text-decoration: none;
+                border-radius: 10px;
+                transition: background-color 0.3s ease;
+                text-align: center;
+                margin-top: 1rem;
+                border: none;
+                cursor: pointer;
+            }
+
+            .donation-button:hover {
+                background-color: var(--secondary-red);
+            }
+
+            @media (max-width: 768px) {
+                .donation-section {
+                    flex-direction: column;
+                    padding: 2rem 1rem;
+                }
+            }
+        </style>
+
+        <div style="width: 100%; text-align: center; margin-bottom: 2rem; color: var(--primary-red);">
+            <h1>Support SPIRIT LIGHT MINISTRIES</h1>
+            <p>Your Generosity Transforms Lives</p>
+        </div>
+
+        <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 1.5rem;">
+            <h2 style="color: var(--primary-red);">Donation Methods</h2>
+
+            <!-- PayPal Donation -->
+            <div class="donation-card">
+                <div class="donation-card-icon">
+                    <img src="\images\paypal logo.png" alt="PayPal Logo">
+                </div>
+                <div style="flex-grow: 1;">
+                    <h3 style="color: var(--primary-red);">PayPal Donation</h3>
+                    <p>Quick and secure online giving</p>
+                    <form action="https://www.paypal.com/donate" method="post" target="_top">
+                        <input type="hidden" name="business" value="prophetjeffter@gmail.com">
+                        <input type="hidden" name="no_recurring" value="0">
+                        <input type="hidden" name="item_name" value="Donation to Spirit Light Ministries">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <button type="submit" class="donation-button">Donate via PayPal</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- CashApp Donation -->
+            <div class="donation-card">
+                <div class="donation-card-icon">
+                    <img src="\images\Cash_App-Logo.wine.svg" alt="CashApp Logo">
+                </div>
+                <div style="flex-grow: 1;">
+                    <h3 style="color: var(--primary-red);">CashApp</h3>
+                    <p>Mobile payment made easy</p>
+                    <p>$ProphetJeffter</p>
+                </div>
+            </div>
+
+            <!-- M-Pesa Donation -->
+            <div class="donation-card">
+                <div class="donation-card-icon">
+                    <img src="\images\Mpesa logo.png" alt="M-Pesa Logo">
+                </div>
+                <div style="flex-grow: 1;">
+                    <h3 style="color: var(--primary-red);">M-Pesa</h3>
+                    <p>Mobile Money Transfer</p>
+                    <p>+254 797 189 400</p>
+                </div>
+            </div>
+        </div>
+
+        <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 1.5rem;">
+            <h2 style="color: var(--primary-red);">Donation Form</h2>
+            <form style="display: flex; flex-direction: column; gap: 1rem;">
+                <input type="text" placeholder="Your Full Name" required
+                    style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;">
+                <input type="email" placeholder="Email Address" required
+                    style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;">
+                <input type="tel" placeholder="Phone Number"
+                    style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;">
+                <input type="text" placeholder="Your Location"
+                    style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;">
+                <input type="number" placeholder="$ Donation Amount" min="1" step="0.01" required
+                    style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;">
+                <textarea placeholder="Why are you donating today? (Optional)" rows="4"
+                    style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;"></textarea>
+                <button type="submit" class="donation-button" style="width: 100%;">Submit Donation</button>
+            </form>
+
+            <div
+                style="background-color: var(--light-background); padding: 1rem; border-radius: 10px; text-align: center;">
+                <h3 style="color: var(--primary-red);">Your Support Makes a Difference</h3>
+                <p>Every donation helps us spread hope, provide support, and transform lives through our ministry.</p>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Footer -->
     @include('footer')
