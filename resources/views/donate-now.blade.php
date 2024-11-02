@@ -211,7 +211,8 @@
                     <form action="https://www.paypal.com/donate" method="post" target="_top">
                         <input type="hidden" name="business" value="prophetjeffter@gmail.com">
                         <input type="hidden" name="no_recurring" value="0">
-                        <input type="hidden" name="item_name" value="Donation to Spirit Light Ministries">
+                        <input type="hidden" name="item_name"
+                            value="Donation to Spirit Light Ministries Online Church">
                         <input type="hidden" name="currency_code" value="USD">
                         <button type="submit" class="donation-button">Donate via PayPal</button>
                     </form>
