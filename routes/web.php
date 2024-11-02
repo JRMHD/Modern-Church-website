@@ -39,3 +39,4 @@ Route::view('/', 'welcome')->name('welcome');
 
 Route::post('/contact', [ContactController::class, 'store'])->name('contact.store');
 Route::post('/subscribe', [SubscriptionController::class, 'subscribe'])->name('subscribe');
+Route::post('/donate', [DonationController::class, 'store'])->name('donation.store');

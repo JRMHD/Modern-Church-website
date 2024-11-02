@@ -12,11 +12,11 @@
 
     <!-- Meta Description -->
     <meta name="description"
-        content="Join Spirit Light Ministries Online Church for uplifting worship services broadcasted globally on platforms like IMO, TikTok, YouTube, and Facebook. Led by Prophet Caleb Wekesa and Pastor Jephter Wekeda (PJ Wekesa), we aim to connect faith and community." />
+        content="Join Spirit Light Ministries Online Church for uplifting worship services broadcasted globally on platforms like IMO, TikTok, YouTube, and Facebook. Led by Prophet Caleb Wekesa and Pastor Jephter Wekesa (PJ Wekesa), we aim to connect faith and community." />
 
     <!-- Meta Keywords -->
     <meta name="keywords"
-        content="Spirit Light Ministries, online church, church services, worship, faith community, Prophet Caleb Wekesa, Pastor Jephter Wekeda, TikTok, YouTube, Facebook, IMO" />
+        content="Spirit Light Ministries, online church, church services, worship, faith community, Prophet Caleb Wekesa, PJ Wekesa, TikTok, YouTube, Facebook, IMO" />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="Spirit Light Ministries Online Church" />
@@ -167,7 +167,7 @@
                         data-dim="w:806px,805px,689px,388px;h:auto,auto,auto,89px;" data-frame_0="y:100%;"
                         data-frame_0_mask="u:t;" data-frame_1="st:2680;sp:1360;sR:2680;" data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:4960;" style="z-index: 9; font-family: 'Open Sans'">Join us in
-                        worship from anywhere in the world. Led by Prophet Caleb Wekesa and Pastor Jephter Wekesa, we’re
+                        worship from anywhere in the world. Led by Prophet Caleb Wekesa and PJ Wekesa, we’re
                         here to guide you in faith and spiritual growth. </rs-layer><!--
 
        --><a id="slider-2-slide-5-layer-19" class="rs-layer rev-btn" href="donate-now" target="_self"
@@ -267,7 +267,7 @@
                         data-dim="w:806px,805px,689px,388px;h:auto,auto,auto,89px;" data-frame_0="y:100%;"
                         data-frame_0_mask="u:t;" data-frame_1="st:2680;sp:1360;sR:2680;" data-frame_1_mask="u:t;"
                         data-frame_999="o:0;st:w;sR:4960;" style="z-index: 9; font-family: 'Open Sans'">Prophet Caleb
-                        Wekesa and Pastor Jephter Wekesa lead our ministry with faith and vision. Join our Spirit Light
+                        Wekesa and PJ Wekesa lead our ministry with faith and vision. Join our Spirit Light
                         Ministries family today. </rs-layer><!--
 
        --><a id="slider-2-slide-8-layer-19" class="rs-layer rev-btn" href="donate-now" target="_self"
@@ -442,7 +442,7 @@
                                                     <ul>
                                                         <li>
                                                             <span class="title">Sermon By:</span>
-                                                            <a href="#">Pastor Jephter Wekesa</a>
+                                                            <a href="#">PJ Wekesa</a>
                                                         </li>
                                                         <li>
                                                             <span class="title">Categories:</span>
@@ -511,7 +511,7 @@
                                                         <li>
                                                             <span class="title">Sermon By:</span>
                                                             <a href="#">Prophet Caleb Wekesa</a>, <a
-                                                                href="#">Pastor Jephter Wekesa</a>
+                                                                href="#">PJ Wekesa</a>
                                                         </li>
                                                         <li>
                                                             <span class="title">Categories:</span>
@@ -590,8 +590,8 @@
                                     <p class="margin-bottom-20">
                                         Spirit Light Ministries brings together believers from across the globe through
                                         online services streamed on platforms like IMO, Tiktok, YouTube, and Facebook.
-                                        Led by Prophet Caleb Wekesa in our physical location and Pastor Jephter Wekeda
-                                        (PJ Wekesa) online, we are committed to sharing the light of God’s love
+                                        Led by Prophet Caleb Wekesa in our physical location and PJ Wekesa
+                                         online, we are committed to sharing the light of God’s love
                                         worldwide.
                                     </p>
                                 </div>
@@ -630,8 +630,8 @@
                                                     <h4>Led by Faithful Leaders</h4>
                                                 </div>
                                                 <p class="mb-0">
-                                                    Under the guidance of Prophet Caleb Wekesa and Pastor Jephter
-                                                    Wekeda, Spirit Light Ministries is dedicated to inspiring faith,
+                                                    Under the guidance of Prophet Caleb Wekesa and PJ Wekesa, Spirit
+                                                    Light Ministries is dedicated to inspiring faith,
                                                     hope, and spiritual growth in all.
                                                 </p>
                                             </div>

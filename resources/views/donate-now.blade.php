@@ -245,21 +245,95 @@
 
         <div style="flex: 1; min-width: 300px; display: flex; flex-direction: column; gap: 1.5rem;">
             <h2 style="color: var(--primary-red);">Donation Form</h2>
-            <form style="display: flex; flex-direction: column; gap: 1rem;">
-                <input type="text" placeholder="Your Full Name" required
+            <form id="donation-form" style="display: flex; flex-direction: column; gap: 1rem;">
+                @csrf
+                <input type="text" name="name" placeholder="Your Full Name" required
                     style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;">
-                <input type="email" placeholder="Email Address" required
+                <input type="email" name="email" placeholder="Email Address" required
                     style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;">
-                <input type="tel" placeholder="Phone Number"
+                <input type="tel" name="phone" placeholder="Phone Number"
                     style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;">
-                <input type="text" placeholder="Your Location"
+                <input type="text" name="location" placeholder="Your Location"
                     style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;">
-                <input type="number" placeholder="$ Donation Amount" min="1" step="0.01" required
+                <input type="number" name="amount" placeholder="$ Donation Amount" min="1" step="0.01"
+                    required
                     style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;">
-                <textarea placeholder="Why are you donating today? (Optional)" rows="4"
+                <textarea name="message" placeholder="Why are you donating today? (Optional)" rows="4"
                     style="width: 100%; padding: 0.75rem; border: 2px solid var(--primary-red); border-radius: 10px;"></textarea>
                 <button type="submit" class="donation-button" style="width: 100%;">Submit Donation</button>
+
+                <div id="loading-spinner" style="display: none; text-align: center; margin-top: 1rem;">
+                    <div class="spinner"></div>
+                </div>
+
+                <p id="response-message" style="display: none; text-align: center; margin-top: 1rem;"></p>
             </form>
+
+            <!-- Spinner Styles -->
+            <style>
+                .spinner {
+                    width: 36px;
+                    height: 36px;
+                    border: 4px solid rgba(0, 0, 0, 0.1);
+                    border-left-color: var(--primary-red);
+                    border-radius: 50%;
+                    animation: spin 1s linear infinite;
+                }
+
+                @keyframes spin {
+                    0% {
+                        transform: rotate(0deg);
+                    }
+
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+            </style>
+
+            <!-- AJAX Submission Script -->
+            <script>
+                document.getElementById('donation-form').addEventListener('submit', function(e) {
+                    e.preventDefault();
+
+                    const formData = new FormData(this);
+                    const spinner = document.getElementById('loading-spinner');
+                    const responseMessage = document.getElementById('response-message');
+
+                    spinner.style.display = 'block';
+                    responseMessage.style.display = 'none';
+
+                    fetch("{{ route('donation.store') }}", {
+                            method: 'POST',
+                            headers: {
+                                'X-CSRF-TOKEN': '{{ csrf_token() }}'
+                            },
+                            body: formData
+                        })
+                        .then(response => response.json())
+                        .then(data => {
+                            spinner.style.display = 'none';
+                            responseMessage.style.display = 'block';
+
+                            if (data.errors) {
+                                responseMessage.style.color = 'red';
+                                responseMessage.innerHTML = '<ul>' + Object.values(data.errors).map(error =>
+                                    `<li>${error}</li>`).join('') + '</ul>';
+                            } else {
+                                responseMessage.style.color = 'green';
+                                responseMessage.innerText = data.message;
+                                document.getElementById('donation-form').reset();
+                            }
+                        })
+                        .catch(error => {
+                            spinner.style.display = 'none';
+                            responseMessage.style.color = 'red';
+                            responseMessage.innerText = 'There was an error processing your donation.';
+                            responseMessage.style.display = 'block';
+                        });
+                });
+            </script>
+
 
             <div
                 style="background-color: var(--light-background); padding: 1rem; border-radius: 10px; text-align: center;">

@@ -13,7 +13,7 @@
                         <div class="widget-text margin-bottom-30">
                             <p>
                                 About Spirit Light Ministries Online Church
-                                A global community led by Prophet Caleb Wekesa and Pastor Jephter Wekeda, sharing hope
+                                A global community led by Prophet Caleb Wekesa and PJ Wekesa, sharing hope
                                 and faith through online services.
                             </p>
                         </div>

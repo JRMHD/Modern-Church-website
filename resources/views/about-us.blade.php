@@ -13,11 +13,11 @@
 
     <!-- Meta Description -->
     <meta name="description"
-        content="Learn more about Spirit Light Ministries Online Church. Discover our mission, beliefs, and the leadership of Prophet Caleb Wekesa and Pastor Jephter Wekeda." />
+        content="Learn more about Spirit Light Ministries Online Church. Discover our mission, beliefs, and the leadership of Prophet Caleb Wekesa and Pastor Jephter Wekesa." />
 
     <!-- Meta Keywords -->
     <meta name="keywords"
-        content="About Spirit Light Ministries, online church, mission, beliefs, Prophet Caleb Wekesa, Pastor Jephter Wekeda" />
+        content="About Spirit Light Ministries, online church, mission, beliefs, Prophet Caleb Wekesa, Pastor Jephter Wekesa" />
 
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="About Us - Spirit Light Ministries Online Church" />
@@ -129,8 +129,8 @@
                                     <p class="margin-bottom-20">
                                         Spirit Light Ministries brings together believers from across the globe through
                                         online services streamed on platforms like IMO, Tiktok, YouTube, and Facebook.
-                                        Led by Prophet Caleb Wekesa in our physical location and Pastor Jephter Wekeda
-                                        (PJ Wekesa) online, we are committed to sharing the light of God’s love
+                                        Led by Prophet Caleb Wekesa in our physical location and PJ Wekesa
+                                        online, we are committed to sharing the light of God’s love
                                         worldwide.
                                     </p>
                                 </div>
@@ -169,8 +169,8 @@
                                                     <h4>Led by Faithful Leaders</h4>
                                                 </div>
                                                 <p class="mb-0">
-                                                    Under the guidance of Prophet Caleb Wekesa and Pastor Jephter
-                                                    Wekeda, Spirit Light Ministries is dedicated to inspiring faith,
+                                                    Under the guidance of Prophet Caleb Wekesa and PJ Wekesa, Spirit
+                                                    Light Ministries is dedicated to inspiring faith,
                                                     hope, and spiritual growth in all.
                                                 </p>
                                             </div>
